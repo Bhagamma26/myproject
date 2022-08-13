@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+   
+   
+</head>
+<body>
+    <section class="header">
+         <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bar  s" onclick="showMenu()"></i>
+         </nav>
+<div class="text-box">
+<h1>World's Biggest University</h1>
+<p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br> Javascript and you are good to go.</p> 
+<a href="" class="hero-btn">Visit Us To know More</a>   
+ </div>     
+    </section>
+    <!----Course---->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Computer science is the study of computers and computing as well as their theoretical and practical applications.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Computer science is the study of computers and computing as well as their theoretical and practical applications. </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Computer science is the study of computers and computing as well as their theoretical and practical applications.</p>
+            </div>
+            
+        </div>
+
+  </section>
+
+  <!----campus---->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="london.png">
+            <div class="layer">
+                <h3>BENGALURU</h3>
+
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="newyork.png">
+            <div class="layer">
+                <h3>MUMBAI</h3>
+
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="washington.png">
+            <div class="layer">
+                <h3>CHENNAI</h3>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-----Facilities------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>A library is a place where many books are kept. Most libraries are public and let people take the books to use in their home.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Playgrounds are the perfect place for children to engage in free play. Structured play — including sports or organized activities — differs from free play.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Food Zone</h3>
+            <p>The importance of food is obvious and essential. It provides us the nutrients and energy to develop and grow, be active and healthy, to move, play, work, ...</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-------reviews---->
+<section class="reviews">
+    <h1>What Our Student Says</h1>
+    <p> It helped me a lot with their study materials. I was preparing for NEET exam, I bought NEET preparation book from them, it is really useful.</p>
+
+    <div class="row">
+        <div class="reviews-col">
+            <img src="user1.jpg">
+            <div>
+                <p>It helped me a lot with their study materials. I was preparing for NEET exam, I bought NEET preparation book from them, it is really useful.</p>
+                <h3>Soundarya</h3>
+              
+
+            </div>
+
+
+        </div>
+
+        <div class="reviews-col">
+            <img src="user2.jpg">
+            <div>
+                <p>It helped me a lot with their study materials. I was preparing for NEET exam, I bought NEET preparation book from them, it is really useful.</p>
+                <h3>John Bayer</h3>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</section>
+
+<!-----Call To Action------>
+
+<section class="connect">
+    <h2>Enroll For Our Various Online Courses Anywhere From The World</h2>
+    <a href="" class="hero-btn">Contact Us</a>
+
+
+</section>
+
+<!------footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A library is a place where many books are kept. Most libraries are public and <br>let people take the books to use in their home.</p>
+
+
+</section>
+
+<!----------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>
